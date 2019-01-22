@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp
+MyDB_LRU.cpp
+/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp
+
