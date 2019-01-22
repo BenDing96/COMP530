@@ -1,44 +1,20 @@
+//
+// Created by 丁哲禹 on 2019-01-22.
+//
 
-#ifndef PAGE_HANDLE_C
-#define PAGE_HANDLE_C
+#ifndef LRU_C
+#define LRU_C
 
-#include "MyDB_LRU.cpp"
+#include "MyDB_LRU.h"
 
-template <class Data>
-class Node {
+#include <iostream>
 
-private:
+Node<Page>* LRU::getNext() {
+    return head->getNext();
+}
 
-    Node *pre;
-    Data holdMe;
-    Node *next;
-
-public:
-
-    void setValue(Data value){
-        holdMe = value;
-    };
-
-    void next(Node *nextNode){
-        next = nextNode;
-    }
-
-    void pre(Node *preNode){
-        next = preNode;
-    }
-
-    Data getValue(){
-        return holdMe;
-    }
-
-    Node *getNext(){
-        return next;
-    }
-
-    Node *getPre(){
-        return pre;
-    }
-
-};
+Node<Page>* LRU::getPre() {
+    return
+}
 
 #endif
