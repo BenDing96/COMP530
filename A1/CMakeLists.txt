@@ -25,7 +25,6 @@ add_executable(A1
         A1/Main/BufferMgr/headers/MyDB_Page.h
         A1/Main/BufferMgr/headers/MyDB_PageHandle.h
         A1/Main/BufferMgr/source/MyDB_BufferManager.cc
-        A1/Main/BufferMgr/source/MyDB_LRU.cpp
         A1/Main/BufferMgr/source/MyDB_Page.cpp
         A1/Main/BufferMgr/source/MyDB_PageHandle.cc
         A1/Main/BufferTest/source/BufferQUnit.cc

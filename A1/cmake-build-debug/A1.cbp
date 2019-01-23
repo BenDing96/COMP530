@@ -127,9 +127,6 @@
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp">
-			<Option target="A1"/>
-		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_Page.cpp">
 			<Option target="A1"/>
 		</Unit>

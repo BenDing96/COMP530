@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
-  "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_Page.cpp" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_PageHandle.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest/source/BufferQUnit.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o"

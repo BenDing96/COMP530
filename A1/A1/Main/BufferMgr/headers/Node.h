@@ -11,12 +11,12 @@ class Node {
 private:
 
     Node *pre;
-    Data holdMe;
+    Data *holdMe;
     Node *next;
 
 public:
 
-    void setValue(Data value){
+    void setValue(Data *value){
         holdMe = value;
     };
 

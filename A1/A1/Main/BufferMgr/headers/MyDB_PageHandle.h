@@ -27,7 +27,7 @@ public:
 	void wroteBytes ();
 
 	// There are no more references to the handle when this is called...
-	// this should decrmeent a reference count to the number of handles
+	// this should decrement a reference count to the number of handles
 	// to the particular page that it references.  If the number of 
 	// references to a pinned page goes down to zero, then the page should
 	// become unpinned.  

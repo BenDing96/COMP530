@@ -1,48 +1,73 @@
 #ifndef PAGE_C
 #define PAGE_C
 
-#include "MyDB_Page.h"
+
 #include <memory>
+#include <iostream>
+
+#include "MyDB_Page.h"
+#include "MyDB_PageHandle.h"
+#include "MyDB_BufferManager.h"
+#include "MyDB_Table.h"
+
 
 using namespace std;
 
-//initialize page
-Page::Page(bool _pin, bool _dirtty, bool _anonymous) {
-    pin = _pin;
-    dirty = _dirtty,;
-    anonymous = _anonymous;
+// initialize  Page (whichTable is ptr which has already calculate the exact address.)
+Page::Page(MyDB_TablePtr whichTable, long index, bool condition) {
+    if (condition == true) {
+        table = whichTable;
+        i = index;
+        pin = false;
+        dirty = false;
+        anonymous = false;
+    }
+
+    else {
+        table = whichTable;
+        i = index;
+        pin = false;
+        dirty = false;
+        anonymous = true;
+    }
 }
 
+// Re-pinned or unpin
 void Page::setPin(bool condition) {
     pin = condition;
 }
 
-// set where the page store
-void Page::setLocation(char tableName, long index) {
-    location.first = tableName;
-    location.second = index;
-    anonymous = false;
+// After writing, set dirty to true.
+void Page::write() {
+    dirty = true;
 }
 
-bool Page::getPin(){
+pair<MyDB_TablePtr, long> Page::getIdentifier() {
+    identifier.first = table;
+    identifier.second = i;
+    return identifier;
+}
+
+bool Page::isPin(){
     return pin;
 }
 
-bool Page::getDirty() {
+bool Page::isDirty() {
     return dirty;
 }
 
-bool Page::getAnonymous() {
+bool Page::isAnonymous() {
     return anonymous;
 }
 
-void Page::readFromDisk() {
+void Page::readFromDisk(MyDB_TablePtr whichTable, long i) {
 
 }
 
-void Page::writeToDisk() {
+void Page::writeToDisk(MyDB_TablePtr whichTable, long i) {
 
 }
+
 
 
 #endif

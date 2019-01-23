@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
-  "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o"
   "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o"
   "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o"
   "CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o"

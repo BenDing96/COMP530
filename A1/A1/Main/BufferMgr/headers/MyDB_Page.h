@@ -11,30 +11,35 @@ using namespace std;
 
 class Page{
 public:
-    // initialize Page
-    Page(bool _pin=false, bool _dirty=false, bool _anonymous=true);
+
+    // initialize  Page (whichTable is ptr which has already calculate the exact address.)
+    Page(MyDB_TablePtr whichTable, long i, bool condition);
+
+    // Buffer address
+    MyDB_BufferManager* bufferAddress;
+
+    bool isPin();
+
+    bool isDirty();
+
+    bool isAnonymous();
 
     // set Pin
     void setPin(bool condition);
 
-    bool getPin();
+    // set Dirty
+    void write();
 
-    bool getDirty();
-
-    bool getAnonymous();
-
-    // location of page
-    void setLocation(char tableName, long index);
-
-    // data in Page
-    void* data();
+    // Page ID
+    pair<MyDB_TablePtr, long> getIdentifier();
 
     // read data from Disk
-    void readFromDisk();
+    void readFromDisk(MyDB_TablePtr whichTable, long i);
 
     // write to Disk
-    void writeToDisk();
+    void writeToDisk(MyDB_TablePtr whichTable, long i);
 
+    bool getPin();
 
 private:
 
@@ -47,9 +52,14 @@ private:
     // default is anonymous page.
     bool anonymous;
 
-    // location of the page contains tableName and num
-    pair<char, int> location;
+    // table address
+    MyDB_TablePtr table;
 
+    // which page
+    long i;
+
+    // identifier
+    pair<MyDB_TablePtr, long> identifier;
 
 };
 

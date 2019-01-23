@@ -150,33 +150,6 @@ A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s:
 	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 .PHONY : A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
-A1/Main/BufferMgr/source/MyDB_LRU.o: A1/Main/BufferMgr/source/MyDB_LRU.cpp.o
-
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.o
-
-# target to build an object file
-A1/Main/BufferMgr/source/MyDB_LRU.cpp.o:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.cpp.o
-
-A1/Main/BufferMgr/source/MyDB_LRU.i: A1/Main/BufferMgr/source/MyDB_LRU.cpp.i
-
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.i
-
-# target to preprocess a source file
-A1/Main/BufferMgr/source/MyDB_LRU.cpp.i:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.i
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.cpp.i
-
-A1/Main/BufferMgr/source/MyDB_LRU.s: A1/Main/BufferMgr/source/MyDB_LRU.cpp.s
-
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.s
-
-# target to generate assembly for a file
-A1/Main/BufferMgr/source/MyDB_LRU.cpp.s:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.s
-.PHONY : A1/Main/BufferMgr/source/MyDB_LRU.cpp.s
-
 A1/Main/BufferMgr/source/MyDB_Page.o: A1/Main/BufferMgr/source/MyDB_Page.cpp.o
 
 .PHONY : A1/Main/BufferMgr/source/MyDB_Page.o
@@ -297,9 +270,6 @@ help:
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.o"
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.i"
 	@echo "... A1/Main/BufferMgr/source/MyDB_BufferManager.s"
-	@echo "... A1/Main/BufferMgr/source/MyDB_LRU.o"
-	@echo "... A1/Main/BufferMgr/source/MyDB_LRU.i"
-	@echo "... A1/Main/BufferMgr/source/MyDB_LRU.s"
 	@echo "... A1/Main/BufferMgr/source/MyDB_Page.o"
 	@echo "... A1/Main/BufferMgr/source/MyDB_Page.i"
 	@echo "... A1/Main/BufferMgr/source/MyDB_Page.s"

@@ -26,7 +26,7 @@ public:
 	MyDB_PageHandle getPage ();
 
 	// gets the i^th page in the table whichTable... the only difference 
-	// between this method and getPage (whicTable, i) is that the page will be 
+	// between this method and getPage (whichTable, i) is that the page will be
 	// pinned in RAM; it cannot be written out to the file
 	MyDB_PageHandle getPinnedPage (MyDB_TablePtr whichTable, long i);
 
@@ -50,8 +50,10 @@ public:
 	// FEEL FREE TO ADD ADDITIONAL PUBLIC METHODS 
 
 private:
-
 	// YOUR STUFF HERE
+	size_t pageSize;
+	size_t pageNum;
+	string tempFile;
 
 };
 

@@ -70,22 +70,9 @@ CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc -o CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
-CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o: CMakeFiles/A1.dir/flags.make
-CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o: ../A1/Main/BufferMgr/source/MyDB_LRU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp
-
-CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp > CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.i
-
-CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_LRU.cpp -o CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.s
-
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o: CMakeFiles/A1.dir/flags.make
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o: ../A1/Main/BufferMgr/source/MyDB_Page.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_Page.cpp
 
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.s: cmake_force
 
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o: CMakeFiles/A1.dir/flags.make
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o: ../A1/Main/BufferMgr/source/MyDB_PageHandle.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_PageHandle.cc
 
 CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.s: cmake_force
 
 CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o: CMakeFiles/A1.dir/flags.make
 CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o: ../A1/Main/BufferTest/source/BufferQUnit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest/source/BufferQUnit.cc
 
 CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.i: cmake_force
@@ -124,7 +111,7 @@ CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.s: cmake_force
 
 CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o: CMakeFiles/A1.dir/flags.make
 CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o: ../A1/Main/Catalog/source/MyDB_Table.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/source/MyDB_Table.cc
 
 CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.i: cmake_force
@@ -138,7 +125,6 @@ CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.s: cmake_force
 # Object files for target A1
 A1_OBJECTS = \
 "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o" \
-"CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o" \
 "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o" \
 "CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o" \
 "CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o" \
@@ -148,14 +134,13 @@ A1_OBJECTS = \
 A1_EXTERNAL_OBJECTS =
 
 A1: CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_BufferManager.cc.o
-A1: CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_LRU.cpp.o
 A1: CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_Page.cpp.o
 A1: CMakeFiles/A1.dir/A1/Main/BufferMgr/source/MyDB_PageHandle.cc.o
 A1: CMakeFiles/A1.dir/A1/Main/BufferTest/source/BufferQUnit.cc.o
 A1: CMakeFiles/A1.dir/A1/Main/Catalog/source/MyDB_Table.cc.o
 A1: CMakeFiles/A1.dir/build.make
 A1: CMakeFiles/A1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable A1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable A1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
