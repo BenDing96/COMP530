@@ -5,14 +5,27 @@
 #include <memory>
 #include "MyDB_PageHandle.h"
 
-void *MyDB_PageHandleBase :: getBytes () {  //返回的是buffer addr
+void *MyDB_PageHandleBase :: getBytes () {
+	// if page's buffer address is not nullptr, the page exists in buffer.
     if(page->getBufferAddr() != nullptr) {
+
+    	// Update the position of node in LRU
 	    buffer->update(page);
+
         return page->getBufferAddr();
 	} else {
+
+    	// If there is no available space for new page, buffer needs
+    	// to evict one page and assign this space to new page.
 		if(buffer->space.empty()) {
-			buffer->evict(page); // evict中设置了page buffer address
+			// LRU need to evict the first one
+			char* availableBufferAddr = buffer->evict(page);
+			page->setBufferAddr(availableBufferAddr);
+			buffer->insert(page);
 		} else {
+
+			// If buffer's space is still available, assign the available
+			// space to new page.
 		    char* addr = buffer->space.back();
 		    buffer->space.pop_back();
 		    page->setBufferAddr(addr);
@@ -30,7 +43,7 @@ MyDB_PageHandleBase :: ~MyDB_PageHandleBase () {
 	page->deHandleNum();
 	if(page->getHandleNum() == 0 && page->isIsAnonymous()){
 	    page->undoPin();
-        this->buffer->anonymousSpace.push_back(page->getTempId());
+        this->buffer->anonymousSpace.push_back(page->getSlotId());
 	}
 }
 

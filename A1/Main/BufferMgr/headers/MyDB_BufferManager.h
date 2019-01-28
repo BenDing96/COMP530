@@ -47,42 +47,58 @@ public:
 	// un-pins the specified page
 	void unpin (MyDB_PageHandle unpinMe);
 
+	// If buffer manager has no available space for new page.
+	// LRU needs to pop the first node of LRU and write back to disk.
+	char* evict(Page* page);
+
+	// If page has already existed in LRU, the page needs to be updated in LRU.
+	// Index the node according to existed page and put it back of LRU.
+	void update(Page* page);
+
+	// 1. Read from disk and set the information into buffer address.
+	// 2. Insert a new node into back of LRU
+	void insert(Page* page);
+
+	// Write anonymous and non-anonymous page back to table or temp file.
+	void writeToDisk(Page* page);
+
+	// Read from table or temp file.
+	void readFromDisk(Page* page);
+
 	// creates an LRU buffer manager... params are as follows:
 	// 1) the size of each page is pageSize 
 	// 2) the number of pages managed by the buffer manager is numPages;
 	// 3) temporary pages are written to the file tempFile
 	MyDB_BufferManager (size_t pageSize, size_t numPages, string tempFile);
 
-	char* evict(Page* page);  // 包含update；
-
-	void update(Page* page);
-
-	void insert(Page* page);
 	
 	// when the buffer manager is destroyed, all of the dirty pages need to be
 	// written back to disk, any necessary data needs to be written to the catalog,
 	// and any temporary files need to be deleted
 	~MyDB_BufferManager ();
 
+
 	// FEEL FREE TO ADD ADDITIONAL PUBLIC METHODS
-
-
 	vector<char* > space;
 	vector<int> anonymousSpace;
-    LRU* lru;
+
 
 
 private:
 	size_t pageSize;
 	size_t numPage;
 	string tempFile;
-	char* buffer;   //bufferAddress 的起始地址
+	char* buffer;
+
+	// Use for checking the page whether it used to exist in buffer
+	// key: tableName_i
+	// value: Page pointer
 	unordered_map<string, Page*> dictionary;
 
-	int slotId = 0; // 用于表示tempFile中的位置
+	LRU* lru;
 
-
-	//map<long, Page*> anonymousDictionary;
+	// Decide which slot for temp file.
+	int slotId=0;
 
 };
 

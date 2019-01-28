@@ -43,14 +43,16 @@ void Page::deHandleNum() {
     }
 }
 
-Page::Page(MyDB_TablePtr whichTable, long i) {
-    PageId.first = whichTable;
-    PageId.second = i;
-    isAnonymous = false;
+Page::Page(MyDB_TablePtr whichTable, long i, int pageSize) {
+    this->PageId.first = whichTable;
+    this->PageId.second = i;
+    this->isAnonymous = false;
+    this->pageSize = pageSize;
 }
 
-Page::Page() {
+Page::Page(int pageSize) {
     this->isAnonymous= true;
+    this->pageSize = pageSize;
 }
 
 Node *Page::getNode() const {
@@ -73,18 +75,20 @@ int Page::getHandleNum() const {
     return handleNum;
 }
 
-int Page::getTempId() const {
+int Page::getSlotId() const {
     return slotId;
 }
 
 
-void Page::setTempId(int slotId) {
+void Page::setSlotId(int slotId) {
     Page::slotId = slotId;
 }
 
 pair<MyDB_TablePtr, long> Page::getPageId() {
     return PageId;
 }
+
+
 
 
 

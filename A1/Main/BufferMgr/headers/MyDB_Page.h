@@ -6,7 +6,7 @@
 #define A1_MYDB_PAGE_H
 
 #include <iostream>
-
+#include <zconf.h>
 
 #include "MyDB_Page.h"
 #include "MyDB_BufferManager.h"
@@ -14,59 +14,62 @@
 #include "Node.h"
 
 class Page {
-public:
 private:
     char* bufferAddr = nullptr;
-    int slotId = 0; // 匿名page的在tempFile中的位置
-    pair<MyDB_TablePtr, long> PageId; // 非匿名page的id
-
-public:
-    int getTempId() const; // 返回slotId
-
-    void setTempId(int slotId); //  设置slotId
-
-private:
+    int slotId = 0;
+    int handleNum = 0;
+    int pageSize = 0;
     bool isAnonymous;
     bool dirty = false;
     bool isPin = false;
-
-    int handleNum = 0;
     Node* node;
-
+    pair<MyDB_TablePtr, long> PageId;
 
 public:
+    // Initialize anonymous page
+    Page(int pageSize);
+
+    // Initialize non-anonymous page
+    Page(MyDB_TablePtr whichTable, long i, int pageSize);
+
+
     Node *getNode() const;
 
     void setNode(Node *node);
 
+
     bool isIsPin() const;
-
-    Page();  //匿名的构造函数
-
-    Page(MyDB_TablePtr whichTable, long i); //非匿名的构造函数
 
     bool isIsAnonymous() const;
 
-    void setBufferAddr(char *bufferAddr);
 
-    void setDirty(bool dirty);
+    void setBufferAddr(char *bufferAddr);
 
     char *getBufferAddr() const;
 
+
+    void setDirty(bool dirty);
+
     bool isDirty() const;
+
 
     void setPin();
 
-    int getHandleNum() const;
-
     void undoPin();
+
+
+    int getHandleNum() const;
 
     void addHandleNum();
 
     void deHandleNum();
+    
 
     pair<MyDB_TablePtr, long> getPageId();
 
+    int getSlotId() const;
+
+    void setSlotId(int slotId);
 
 };
 
