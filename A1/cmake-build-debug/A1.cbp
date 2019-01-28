@@ -45,19 +45,17 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/."/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Build"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/headers"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Qunit"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit/headers"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -79,19 +77,17 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/."/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Build"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/headers"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/source"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Qunit"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit/headers"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -106,43 +102,46 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1.pdf">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/LRU.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Build/SConstruct">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/MyDB_BufferManager.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers/MyDB_BufferManager.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/MyDB_Page.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers/MyDB_LRU.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/MyDB_PageHandle.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers/MyDB_Page.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/Node.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/headers/MyDB_PageHandle.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.cpp">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_BufferManager.cc">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_BufferManager.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_Page.cpp">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.cpp">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferMgr/source/MyDB_PageHandle.cc">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_PageHandle.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/BufferTest/source/BufferQUnit.cc">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.cpp">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/headers/MyDB_Table.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source/BufferQUnit.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Catalog/source/MyDB_Table.cc">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/headers/MyDB_Table.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/A1/Main/Qunit/headers/QUnit.h">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/source/MyDB_Table.cc">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit/headers/QUnit.h">
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/CMakeLists.txt">
