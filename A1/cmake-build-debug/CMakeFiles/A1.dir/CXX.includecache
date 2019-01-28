@@ -15,15 +15,15 @@ MyDB_Page.h
 .././Main/BufferMgr/headers/MyDB_Page.h
 LRU.h
 .././Main/BufferMgr/headers/LRU.h
-map
--
 fcntl.h
 -
 vector
 -
-tuple
--
 unordered_map
+-
+stdio.h
+-
+iostream
 -
 
 ../Main/BufferMgr/headers/LRU.h
@@ -43,15 +43,15 @@ MyDB_Page.h
 ../Main/BufferMgr/headers/MyDB_Page.h
 LRU.h
 ../Main/BufferMgr/headers/LRU.h
-map
--
 fcntl.h
 -
 vector
 -
-tuple
--
 unordered_map
+-
+stdio.h
+-
+iostream
 -
 
 ../Main/BufferMgr/headers/MyDB_Page.h
@@ -93,6 +93,6 @@ Main/BufferMgr/headers/MyDB_BufferManager.h
 -
 zconf.h
 -
-stdio.h
+iostream
 -
 
