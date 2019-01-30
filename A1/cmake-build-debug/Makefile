@@ -123,32 +123,32 @@ A1/fast:
 	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/build
 .PHONY : A1/fast
 
-Main/BufferMgr/source/LRU.o: Main/BufferMgr/source/LRU.cpp.o
+Main/BufferMgr/source/LRU.o: Main/BufferMgr/source/LRU.cc.o
 
 .PHONY : Main/BufferMgr/source/LRU.o
 
 # target to build an object file
-Main/BufferMgr/source/LRU.cpp.o:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cpp.o
-.PHONY : Main/BufferMgr/source/LRU.cpp.o
+Main/BufferMgr/source/LRU.cc.o:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cc.o
+.PHONY : Main/BufferMgr/source/LRU.cc.o
 
-Main/BufferMgr/source/LRU.i: Main/BufferMgr/source/LRU.cpp.i
+Main/BufferMgr/source/LRU.i: Main/BufferMgr/source/LRU.cc.i
 
 .PHONY : Main/BufferMgr/source/LRU.i
 
 # target to preprocess a source file
-Main/BufferMgr/source/LRU.cpp.i:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cpp.i
-.PHONY : Main/BufferMgr/source/LRU.cpp.i
+Main/BufferMgr/source/LRU.cc.i:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cc.i
+.PHONY : Main/BufferMgr/source/LRU.cc.i
 
-Main/BufferMgr/source/LRU.s: Main/BufferMgr/source/LRU.cpp.s
+Main/BufferMgr/source/LRU.s: Main/BufferMgr/source/LRU.cc.s
 
 .PHONY : Main/BufferMgr/source/LRU.s
 
 # target to generate assembly for a file
-Main/BufferMgr/source/LRU.cpp.s:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cpp.s
-.PHONY : Main/BufferMgr/source/LRU.cpp.s
+Main/BufferMgr/source/LRU.cc.s:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/LRU.cc.s
+.PHONY : Main/BufferMgr/source/LRU.cc.s
 
 Main/BufferMgr/source/MyDB_BufferManager.o: Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
@@ -177,32 +177,32 @@ Main/BufferMgr/source/MyDB_BufferManager.cc.s:
 	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_BufferManager.cc.s
 
-Main/BufferMgr/source/MyDB_Page.o: Main/BufferMgr/source/MyDB_Page.cpp.o
+Main/BufferMgr/source/MyDB_Page.o: Main/BufferMgr/source/MyDB_Page.cc.o
 
 .PHONY : Main/BufferMgr/source/MyDB_Page.o
 
 # target to build an object file
-Main/BufferMgr/source/MyDB_Page.cpp.o:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cpp.o
-.PHONY : Main/BufferMgr/source/MyDB_Page.cpp.o
+Main/BufferMgr/source/MyDB_Page.cc.o:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cc.o
+.PHONY : Main/BufferMgr/source/MyDB_Page.cc.o
 
-Main/BufferMgr/source/MyDB_Page.i: Main/BufferMgr/source/MyDB_Page.cpp.i
+Main/BufferMgr/source/MyDB_Page.i: Main/BufferMgr/source/MyDB_Page.cc.i
 
 .PHONY : Main/BufferMgr/source/MyDB_Page.i
 
 # target to preprocess a source file
-Main/BufferMgr/source/MyDB_Page.cpp.i:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cpp.i
-.PHONY : Main/BufferMgr/source/MyDB_Page.cpp.i
+Main/BufferMgr/source/MyDB_Page.cc.i:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cc.i
+.PHONY : Main/BufferMgr/source/MyDB_Page.cc.i
 
-Main/BufferMgr/source/MyDB_Page.s: Main/BufferMgr/source/MyDB_Page.cpp.s
+Main/BufferMgr/source/MyDB_Page.s: Main/BufferMgr/source/MyDB_Page.cc.s
 
 .PHONY : Main/BufferMgr/source/MyDB_Page.s
 
 # target to generate assembly for a file
-Main/BufferMgr/source/MyDB_Page.cpp.s:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cpp.s
-.PHONY : Main/BufferMgr/source/MyDB_Page.cpp.s
+Main/BufferMgr/source/MyDB_Page.cc.s:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_Page.cc.s
+.PHONY : Main/BufferMgr/source/MyDB_Page.cc.s
 
 Main/BufferMgr/source/MyDB_PageHandle.o: Main/BufferMgr/source/MyDB_PageHandle.cc.o
 
@@ -231,32 +231,32 @@ Main/BufferMgr/source/MyDB_PageHandle.cc.s:
 	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/MyDB_PageHandle.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_PageHandle.cc.s
 
-Main/BufferMgr/source/Node.o: Main/BufferMgr/source/Node.cpp.o
+Main/BufferMgr/source/Node.o: Main/BufferMgr/source/Node.cc.o
 
 .PHONY : Main/BufferMgr/source/Node.o
 
 # target to build an object file
-Main/BufferMgr/source/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cpp.o
-.PHONY : Main/BufferMgr/source/Node.cpp.o
+Main/BufferMgr/source/Node.cc.o:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cc.o
+.PHONY : Main/BufferMgr/source/Node.cc.o
 
-Main/BufferMgr/source/Node.i: Main/BufferMgr/source/Node.cpp.i
+Main/BufferMgr/source/Node.i: Main/BufferMgr/source/Node.cc.i
 
 .PHONY : Main/BufferMgr/source/Node.i
 
 # target to preprocess a source file
-Main/BufferMgr/source/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cpp.i
-.PHONY : Main/BufferMgr/source/Node.cpp.i
+Main/BufferMgr/source/Node.cc.i:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cc.i
+.PHONY : Main/BufferMgr/source/Node.cc.i
 
-Main/BufferMgr/source/Node.s: Main/BufferMgr/source/Node.cpp.s
+Main/BufferMgr/source/Node.s: Main/BufferMgr/source/Node.cc.s
 
 .PHONY : Main/BufferMgr/source/Node.s
 
 # target to generate assembly for a file
-Main/BufferMgr/source/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cpp.s
-.PHONY : Main/BufferMgr/source/Node.cpp.s
+Main/BufferMgr/source/Node.cc.s:
+	$(MAKE) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Main/BufferMgr/source/Node.cc.s
+.PHONY : Main/BufferMgr/source/Node.cc.s
 
 Main/BufferTest/source/BufferQUnit.o: Main/BufferTest/source/BufferQUnit.cc.o
 

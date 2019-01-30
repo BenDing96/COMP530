@@ -6,7 +6,7 @@
 #define A1_MYDB_PAGE_H
 
 #include <iostream>
-#include <zconf.h>
+
 
 #include "MyDB_Page.h"
 #include "MyDB_BufferManager.h"
@@ -14,23 +14,31 @@
 #include "Node.h"
 
 class Page {
+public:
 private:
     char* bufferAddr = nullptr;
     int slotId = 0;
     int handleNum = 0;
-    int pageSize = 0;
     bool isAnonymous;
     bool dirty = false;
     bool isPin = false;
-    Node* node;
+
     pair<MyDB_TablePtr, long> PageId;
+    Node* node;
+
+
 
 public:
     // Initialize anonymous page
-    Page(int pageSize);
+    Page();
 
     // Initialize non-anonymous page
-    Page(MyDB_TablePtr whichTable, long i, int pageSize);
+    Page(MyDB_TablePtr whichTable, long i);
+
+
+    int getSlotId() const;
+
+    void setSlotId(int slotId);
 
 
     Node *getNode() const;
@@ -39,6 +47,11 @@ public:
 
 
     bool isIsPin() const;
+
+    void setPin();
+
+    void undoPin();
+
 
     bool isIsAnonymous() const;
 
@@ -53,23 +66,16 @@ public:
     bool isDirty() const;
 
 
-    void setPin();
-
-    void undoPin();
-
 
     int getHandleNum() const;
 
     void addHandleNum();
 
     void deHandleNum();
-    
+
 
     pair<MyDB_TablePtr, long> getPageId();
 
-    int getSlotId() const;
-
-    void setSlotId(int slotId);
 
 };
 

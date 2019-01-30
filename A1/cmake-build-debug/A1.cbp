@@ -117,19 +117,19 @@
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/Node.h">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.cpp">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.cc">
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_BufferManager.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.cpp">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.cc">
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_PageHandle.cc">
 			<Option target="A1"/>
 		</Unit>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.cpp">
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.cc">
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source/BufferQUnit.cc">

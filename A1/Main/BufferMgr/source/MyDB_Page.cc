@@ -2,14 +2,12 @@
 // Created by Wangjj on 2019-01-24.
 //
 
-#include <Main/BufferMgr/headers/MyDB_Page.h>
 
 #include "MyDB_Page.h"
 
 char *Page::getBufferAddr() const {
     return bufferAddr;
 }
-
 
 bool Page::isDirty() const {
     return dirty;
@@ -38,21 +36,16 @@ void Page::addHandleNum() {
 
 void Page::deHandleNum() {
     Page::handleNum--;
-    if(handleNum == 0){
-        undoPin();
-    }
 }
 
-Page::Page(MyDB_TablePtr whichTable, long i, int pageSize) {
-    this->PageId.first = whichTable;
-    this->PageId.second = i;
-    this->isAnonymous = false;
-    this->pageSize = pageSize;
+Page::Page(MyDB_TablePtr whichTable, long i) {
+    PageId.first = whichTable;
+    PageId.second = i;
+    isAnonymous = false;
 }
 
-Page::Page(int pageSize) {
+Page::Page() {
     this->isAnonymous= true;
-    this->pageSize = pageSize;
 }
 
 Node *Page::getNode() const {
@@ -79,7 +72,6 @@ int Page::getSlotId() const {
     return slotId;
 }
 
-
 void Page::setSlotId(int slotId) {
     Page::slotId = slotId;
 }
@@ -87,8 +79,6 @@ void Page::setSlotId(int slotId) {
 pair<MyDB_TablePtr, long> Page::getPageId() {
     return PageId;
 }
-
-
 
 
 

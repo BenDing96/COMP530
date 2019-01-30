@@ -22,11 +22,11 @@ add_executable(A1
         Main/BufferMgr/headers/MyDB_Page.h
         Main/BufferMgr/headers/MyDB_PageHandle.h
         Main/BufferMgr/headers/Node.h
-        Main/BufferMgr/source/LRU.cpp
+        Main/BufferMgr/source/LRU.cc
         Main/BufferMgr/source/MyDB_BufferManager.cc
-        Main/BufferMgr/source/MyDB_Page.cpp
+        Main/BufferMgr/source/MyDB_Page.cc
         Main/BufferMgr/source/MyDB_PageHandle.cc
-        Main/BufferMgr/source/Node.cpp
+        Main/BufferMgr/source/Node.cc
         Main/BufferTest/source/BufferQUnit.cc
         Main/Catalog/headers/MyDB_Table.h
         Main/Catalog/source/MyDB_Table.cc

@@ -3,15 +3,9 @@
 #define BUFFER_MGR_C
 
 #include "MyDB_BufferManager.h"
-#include "MyDB_Page.h"
-
 #include <string>
-#include <Main/BufferMgr/headers/MyDB_BufferManager.h>
 #include <zconf.h>
 #include <iostream>
-
-
-
 
 using namespace std;
 
@@ -22,7 +16,7 @@ MyDB_PageHandle MyDB_BufferManager :: getPage (MyDB_TablePtr whichTable, long i)
 
 	// Check whether the page exists before
 	if(this->dictionary.count(key) == 0) {
-		curPage = new Page(whichTable, i, pageSize);
+		curPage = new Page(whichTable, i);
 		this->dictionary[key] = curPage;
 	}
 	curPage = dictionary[key];
@@ -33,7 +27,7 @@ MyDB_PageHandle MyDB_BufferManager :: getPage (MyDB_TablePtr whichTable, long i)
 }
 
 MyDB_PageHandle MyDB_BufferManager :: getPage () {
-	Page *curPage = new Page(pageSize);
+	Page *curPage = new Page();
 	if(anonymousSpace.empty()) {
 	    curPage->setSlotId(slotId);
 		slotId++;
@@ -49,22 +43,23 @@ MyDB_PageHandle MyDB_BufferManager :: getPage () {
 
 MyDB_PageHandle MyDB_BufferManager :: getPinnedPage (MyDB_TablePtr whichTable, long i) {
 	// Get a non-anonymous page
-	MyDB_PageHandle ph1 = getPage(whichTable, i);
+	MyDB_PageHandle ph = getPage(whichTable, i);
 
 	// Set pin
-	ph1->getPage()->setPin();
+	ph->getPage()->setPin();
 
-    return ph1;
+    return ph;
 }
 
 MyDB_PageHandle MyDB_BufferManager :: getPinnedPage () {
-	// // Get an anonymous page
-	MyDB_PageHandle ph1 = getPage();
+
+	// Get an anonymous page
+	MyDB_PageHandle ph = getPage();
 
 	// Set Pin
-	ph1->getPage()->setPin();
+	ph->getPage()->setPin();
 
-	return ph1;
+	return ph;
 }
 
 void MyDB_BufferManager :: unpin (MyDB_PageHandle unpinMe) {
@@ -92,20 +87,23 @@ MyDB_BufferManager :: MyDB_BufferManager (size_t pageSize, size_t numPage, strin
 }
 
 MyDB_BufferManager :: ~MyDB_BufferManager () {
-	// Evict all the pages from LRU and write them back to disk.
-	while(!lru->isEmpty()) {
-		Page* outPage = lru->finalEvict()->getPage();
 
-		// Reclaim buffer memory
-		space.push_back(outPage->getBufferAddr());
+	unordered_map<string, Page*>::iterator iter;
 
-		// Write all dirty pages back to disk.
-		writeToDisk(outPage);
-
-		// Delete each node and page
-		delete outPage->getNode();
-		delete outPage;
+	for(iter=dictionary.begin();iter!=dictionary.end(); iter++){
+		if(iter->second->getBufferAddr() == nullptr){
+			delete(iter->second->getNode());
+			delete(iter->second);
+		}else{
+			if(iter->second->isDirty()){
+				writeToDisk(iter->second);
+			}
+			delete(iter->second->getNode());
+			delete(iter->second);
+		}
 	}
+
+	delete lru;
 
 	// Delete temp file
 	remove(tempFile.c_str());
@@ -118,7 +116,7 @@ char* MyDB_BufferManager::evict(Page* page) {
 	Page* outPage = lru->evict()->getPage();
 
 	// Write back to disk
-	writeToDisk(page);
+	writeToDisk(outPage);
 
 	// Get out page's buffer address
 	char* addr = outPage->getBufferAddr();
@@ -133,6 +131,7 @@ void MyDB_BufferManager::update(Page *page) {
 
 	// get the node which needs to be updated
 	Node* node = page->getNode();
+
 	lru->update(node);
 }
 
@@ -147,6 +146,8 @@ void MyDB_BufferManager::insert(Page *page) {
 	lru->insert(node);
 
 	readFromDisk(page);
+
+
 }
 
 void MyDB_BufferManager::writeToDisk(Page* page) {
@@ -171,20 +172,20 @@ void MyDB_BufferManager::writeToDisk(Page* page) {
 
 void MyDB_BufferManager::readFromDisk(Page *page) {
 	if (page->isIsAnonymous()) {
-			int temp = open(tempFile.c_str(),O_CREAT | O_RDWR | O_SYNC, 0666);
-			lseek(temp, page->getSlotId() * this->pageSize, SEEK_SET);
-			read(temp, page->getBufferAddr(), this->pageSize);
-			page->setDirty(false);
-			// it would be faster, if I don't close file
-			// close(temp);
+		int temp = open(tempFile.c_str(),O_CREAT | O_RDWR | O_SYNC, 0666);
+		lseek(temp, page->getSlotId() * this->pageSize, SEEK_SET);
+		read(temp, page->getBufferAddr(), this->pageSize);
+		page->setDirty(false);
+		// it would be faster, if I don't close file
+		// close(temp);
 
 	} else {
-			int table = open(page->getPageId().first->getStorageLoc().c_str(), O_CREAT | O_RDWR | O_SYNC, 0666);
-			lseek(table, page->getPageId().second * this->pageSize, SEEK_SET);
-			read(table, page->getBufferAddr(), this->pageSize);
-			page->setDirty(false);
-			// it would be faster, if I don't close file
-			// close(table);
+		int table = open(page->getPageId().first->getStorageLoc().c_str(), O_CREAT | O_RDWR | O_SYNC, 0666);
+		lseek(table, page->getPageId().second * this->pageSize, SEEK_SET);
+		read(table, page->getBufferAddr(), this->pageSize);
+		page->setDirty(false);
+		// it would be faster, if I don't close file
+		// close(table);
 	}
 }
 

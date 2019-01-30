@@ -6,60 +6,6 @@
 
 #IncludeRegexTransform: 
 
-.././Main/BufferMgr/headers/LRU.h
-MyDB_Page.h
-.././Main/BufferMgr/headers/MyDB_Page.h
-MyDB_BufferManager.h
-.././Main/BufferMgr/headers/MyDB_BufferManager.h
-Node.h
-.././Main/BufferMgr/headers/Node.h
-
-.././Main/BufferMgr/headers/MyDB_BufferManager.h
-MyDB_PageHandle.h
-.././Main/BufferMgr/headers/MyDB_PageHandle.h
-MyDB_Table.h
-.././Main/BufferMgr/headers/MyDB_Table.h
-MyDB_Page.h
-.././Main/BufferMgr/headers/MyDB_Page.h
-LRU.h
-.././Main/BufferMgr/headers/LRU.h
-fcntl.h
--
-vector
--
-unordered_map
--
-stdio.h
--
-iostream
--
-
-.././Main/BufferMgr/headers/MyDB_Page.h
-iostream
--
-zconf.h
--
-MyDB_Page.h
-.././Main/BufferMgr/headers/MyDB_Page.h
-MyDB_BufferManager.h
-.././Main/BufferMgr/headers/MyDB_BufferManager.h
-MyDB_Table.h
-.././Main/BufferMgr/headers/MyDB_Table.h
-Node.h
-.././Main/BufferMgr/headers/Node.h
-
-.././Main/BufferMgr/headers/MyDB_PageHandle.h
-memory
--
-MyDB_Page.h
-.././Main/BufferMgr/headers/MyDB_Page.h
-MyDB_BufferManager.h
-.././Main/BufferMgr/headers/MyDB_BufferManager.h
-
-.././Main/BufferMgr/headers/Node.h
-MyDB_Page.h
-.././Main/BufferMgr/headers/MyDB_Page.h
-
 ../Main/BufferMgr/headers/LRU.h
 MyDB_Page.h
 ../Main/BufferMgr/headers/MyDB_Page.h
@@ -90,8 +36,6 @@ iostream
 
 ../Main/BufferMgr/headers/MyDB_Page.h
 iostream
--
-zconf.h
 -
 MyDB_Page.h
 ../Main/BufferMgr/headers/MyDB_Page.h
@@ -126,29 +70,21 @@ sstream
 string
 -
 
-/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.cpp
-Main/BufferMgr/headers/LRU.h
--
+/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.cc
 LRU.h
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/LRU.h
 
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_BufferManager.cc
 MyDB_BufferManager.h
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_BufferManager.h
-MyDB_Page.h
-/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.h
 string
--
-Main/BufferMgr/headers/MyDB_BufferManager.h
 -
 zconf.h
 -
 iostream
 -
 
-/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.cpp
-Main/BufferMgr/headers/MyDB_Page.h
--
+/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.cc
 MyDB_Page.h
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_Page.h
 
@@ -158,7 +94,7 @@ memory
 MyDB_PageHandle.h
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/MyDB_PageHandle.h
 
-/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.cpp
+/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.cc
 Node.h
 /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source/Node.h
 

@@ -2,8 +2,6 @@
 // Created by Wangjj on 2019-01-24.
 //
 
-#include <Main/BufferMgr/headers/LRU.h>
-
 #include "LRU.h"
 
 class LRU;
