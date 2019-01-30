@@ -84,7 +84,6 @@ public:
 	vector<int> anonymousSpace;
 
 
-
 private:
 	size_t pageSize;
 	size_t numPage;

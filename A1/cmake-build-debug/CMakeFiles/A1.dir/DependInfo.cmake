@@ -17,12 +17,14 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  "../Build"
+  "../Build/bin"
+  "."
   "../Main"
   "../Main/BufferMgr"
   "../Main/BufferMgr/headers"
   "../Main/BufferMgr/source"
   "../Main/BufferTest"
-  "../Main/BufferTest/source"
   "../Main/Catalog"
   "../Main/Catalog/headers"
   "../Main/Catalog/source"

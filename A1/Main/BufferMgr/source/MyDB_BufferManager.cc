@@ -176,16 +176,14 @@ void MyDB_BufferManager::readFromDisk(Page *page) {
 		lseek(temp, page->getSlotId() * this->pageSize, SEEK_SET);
 		read(temp, page->getBufferAddr(), this->pageSize);
 		page->setDirty(false);
-		// it would be faster, if I don't close file
-		// close(temp);
+		 close(temp);
 
 	} else {
 		int table = open(page->getPageId().first->getStorageLoc().c_str(), O_CREAT | O_RDWR | O_SYNC, 0666);
 		lseek(table, page->getPageId().second * this->pageSize, SEEK_SET);
 		read(table, page->getBufferAddr(), this->pageSize);
 		page->setDirty(false);
-		// it would be faster, if I don't close file
-		// close(table);
+		close(table);
 	}
 }
 

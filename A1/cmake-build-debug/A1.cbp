@@ -45,12 +45,14 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Build"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Build/bin"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/headers"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/source"/>
@@ -77,12 +79,14 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Build"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Build/bin"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/source"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest"/>
-					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferTest/source"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/headers"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Catalog/source"/>
@@ -102,6 +106,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Build/SConstruct">
+			<Option target="A1"/>
+		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/BufferMgr/headers/LRU.h">
 			<Option target="A1"/>
 		</Unit>
@@ -142,6 +149,21 @@
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/Main/Qunit/headers/QUnit.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/A1">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/A1.cbp">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/CMakeCache.txt">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/Makefile">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/cmake-build-debug/cmake_install.cmake">
 			<Option target="A1"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A1/CMakeLists.txt">
