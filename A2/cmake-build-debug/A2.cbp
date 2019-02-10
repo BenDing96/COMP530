@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A2">
+				<Option output="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/A2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 A2"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A2/fast">
+				<Option output="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/A2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 A2/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/A2.pdf">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build/SConstruct">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build/supplier.tbl">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/CheckLRU.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/MyDB_BufferManager.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/MyDB_Page.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/MyDB_PageHandle.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/PageCompare.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/TableCompare.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/it.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source/MyDB_BufferManager.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source/MyDB_Page.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest/source/BufferQUnit.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers/MyDB_AttType.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers/MyDB_Catalog.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers/MyDB_PageType.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers/MyDB_Schema.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/headers/MyDB_Table.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Catalog.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Schema.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Table.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_RecordIterator.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit/headers/QUnit.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/headers/MyDB_AttVal.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/headers/MyDB_Record.h">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_AttVal.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_Record.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source/RecordQUnit.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
