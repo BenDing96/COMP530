@@ -12,7 +12,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Schema.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Table.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o"
+  "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o"
+  "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_AttVal.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_Record.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source/RecordQUnit.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
@@ -22,6 +24,9 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
+  "../Build"
+  "../Build/bin"
+  "."
   "../Main"
   "../Main/BufferMgr"
   "../Main/BufferMgr/headers"

@@ -45,6 +45,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build/bin"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers"/>
@@ -86,6 +89,9 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/."/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build/bin"/>
+					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr"/>
 					<Add directory="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers"/>
@@ -120,9 +126,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/A2.pdf">
-			<Option target="A2"/>
-		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Build/SConstruct">
 			<Option target="A2"/>
 		</Unit>
@@ -186,16 +189,28 @@
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_PageRecIterator.h">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_RecordIterator.h">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/headers/MyDB_TableRecIterator.h">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc">
 			<Option target="A2"/>
 		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc">
+			<Option target="A2"/>
+		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Qunit/headers/QUnit.h">
@@ -214,6 +229,18 @@
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source/RecordQUnit.cc">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/A2.cbp">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeCache.txt">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/Makefile">
+			<Option target="A2"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/cmake_install.cmake">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/CMakeLists.txt">

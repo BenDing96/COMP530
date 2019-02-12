@@ -1,6 +1,6 @@
 # COMP530
 Database Implementation
 
-Teammate: 
-zd12
-jw101
+Team member: 
+ Zheyu Ding (zd12)
+ Jianjun Wang (jw101 )

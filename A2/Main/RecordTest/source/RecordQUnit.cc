@@ -77,7 +77,7 @@ int main(int argc, char *argv[]) {
 
 			cout << "create TableReaderWriter..." << flush;
 			MyDB_TableReaderWriter supplierTable(allTables["supplier"], myMgr);
-			MyDB_RecordPtr temp = supplierTable.getEmptyRecord();
+			MyDB_RecordPtr temp = supplierTable.getEmptyRecord(); // 创建一个record()
 
 			cout << "create TableIterator..." << flush;
 			MyDB_RecordIteratorPtr myIter = supplierTable.getIterator(temp);

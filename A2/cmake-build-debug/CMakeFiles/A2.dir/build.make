@@ -161,9 +161,22 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s: cmake_fo
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.s
 
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: CMakeFiles/A2.dir/flags.make
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o: ../Main/DatabaseTable/source/MyDB_PageRecIterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.i
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.s
+
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o: ../Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
 
 CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.i: cmake_force
@@ -174,9 +187,22 @@ CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.s
 
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: CMakeFiles/A2.dir/flags.make
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o: ../Main/DatabaseTable/source/MyDB_TableRecIterator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc > CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.i
+
+CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc -o CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.s
+
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o: ../Main/Record/source/MyDB_AttVal.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_AttVal.cc
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.i: cmake_force
@@ -189,7 +215,7 @@ CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.s: cmake_force
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o: ../Main/Record/source/MyDB_Record.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Record/source/MyDB_Record.cc
 
 CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.i: cmake_force
@@ -202,7 +228,7 @@ CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.s: cmake_force
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o: ../Main/RecordTest/source/RecordQUnit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o -c /Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/RecordTest/source/RecordQUnit.cc
 
 CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.i: cmake_force
@@ -223,7 +249,9 @@ A2_OBJECTS = \
 "CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o" \
 "CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o" \
 "CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o" \
+"CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o" \
 "CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o" \
+"CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o" \
 "CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o" \
 "CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o" \
 "CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o"
@@ -239,13 +267,15 @@ A2: CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o
 A2: CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o
 A2: CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o
 A2: CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o
+A2: CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o
 A2: CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o
+A2: CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o
 A2: CMakeFiles/A2.dir/Main/Record/source/MyDB_AttVal.cc.o
 A2: CMakeFiles/A2.dir/Main/Record/source/MyDB_Record.cc.o
 A2: CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o
 A2: CMakeFiles/A2.dir/build.make
 A2: CMakeFiles/A2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable A2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable A2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

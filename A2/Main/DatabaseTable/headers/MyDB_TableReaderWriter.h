@@ -7,6 +7,7 @@
 #include "MyDB_Record.h"
 #include "MyDB_RecordIterator.h"
 #include "MyDB_Table.h"
+#include <string>
 
 // create a smart pointer for the catalog
 using namespace std;
@@ -30,7 +31,7 @@ public:
 	// append a record to the table
 	void append (MyDB_RecordPtr appendMe);
 
-	// return an itrator over this table... each time returnVal->next () is
+	// return an iterator over this table... each time returnVal->next () is
 	// called, the resulting record will be placed into the record pointed to
 	// by iterateIntoMe
 	MyDB_RecordIteratorPtr getIterator (MyDB_RecordPtr iterateIntoMe);
@@ -44,12 +45,14 @@ public:
 	// access the i^th page in this file
 	MyDB_PageReaderWriter operator [] (size_t i);
 
-        // access the last page in the file
-        MyDB_PageReaderWriter last ();
+	// access the last page in the file
+	MyDB_PageReaderWriter last ();
 
 private:
 
 	// ANYTHING YOU NEED HERE
+	MyDB_TablePtr forMe;
+	MyDB_BufferManagerPtr myBuffer;
 };
 
 #endif

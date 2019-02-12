@@ -4,12 +4,27 @@
 
 #include "MyDB_PageType.h"
 #include "MyDB_TableReaderWriter.h"
+#include "MyDB_BufferManager.h"
+#include "MyDB_Page.h"
+#include "MyDB_PageHandle.h"
+
+using namespace std;
+
+class MyDB_PageReaderWriter;
+typedef shared_ptr <MyDB_PageReaderWriter> MyDB_PageReaderWriterPtr;
+
+
+struct PageHeader {
+	int lastByte;
+	char data[0];
+};
 
 class MyDB_PageReaderWriter {
 
 public:
 
 	// ANY OTHER METHODS YOU WANT HERE
+	MyDB_PageReaderWriter(MyDB_BufferManagerPtr buffer, MyDB_TablePtr table, long i);
 
 	// empties out the contents of this page, so that it has no records in it
 	// the type of the page is set to MyDB_PageType :: RegularPage
@@ -24,7 +39,7 @@ public:
 	// there is not enough space on the page; otherwise, return true
 	bool append (MyDB_RecordPtr appendMe);
 
-	// gets the type of this page... this is just a value from an ennumeration
+	// gets the type of this page... this is just a value from an enumeration
 	// that is stored within the page
 	MyDB_PageType getType ();
 
@@ -34,6 +49,10 @@ public:
 private:
 
 	// ANYTHING ELSE YOU WANT HERE
+	MyDB_BufferManagerPtr buffer;
+	MyDB_TablePtr table;
+	struct PageHeader* headAddr;
+	MyDB_PageHandle page;
 };
 
 #endif

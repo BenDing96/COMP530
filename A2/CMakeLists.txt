@@ -4,6 +4,9 @@ project(A2)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
+include_directories(Build)
+include_directories(Build/bin)
+include_directories(cmake-build-debug)
 include_directories(Main)
 include_directories(Main/BufferMgr)
 include_directories(Main/BufferMgr/headers)
@@ -27,6 +30,10 @@ include_directories(Main/RecordTest/source)
 add_executable(A2
         Build/SConstruct
         Build/supplier.tbl
+        cmake-build-debug/A2.cbp
+        cmake-build-debug/cmake_install.cmake
+        cmake-build-debug/CMakeCache.txt
+        cmake-build-debug/Makefile
         Main/BufferMgr/headers/CheckLRU.h
         Main/BufferMgr/headers/it.cc
         Main/BufferMgr/headers/MyDB_BufferManager.h
@@ -46,14 +53,17 @@ add_executable(A2
         Main/Catalog/source/MyDB_Schema.cc
         Main/Catalog/source/MyDB_Table.cc
         Main/DatabaseTable/headers/MyDB_PageReaderWriter.h
+        Main/DatabaseTable/headers/MyDB_PageRecIterator.h
         Main/DatabaseTable/headers/MyDB_RecordIterator.h
         Main/DatabaseTable/headers/MyDB_TableReaderWriter.h
+        Main/DatabaseTable/headers/MyDB_TableRecIterator.h
         Main/DatabaseTable/source/MyDB_PageReaderWriter.cc
+        Main/DatabaseTable/source/MyDB_PageRecIterator.cc
         Main/DatabaseTable/source/MyDB_TableReaderWriter.cc
+        Main/DatabaseTable/source/MyDB_TableRecIterator.cc
         Main/Qunit/headers/QUnit.h
         Main/Record/headers/MyDB_AttVal.h
         Main/Record/headers/MyDB_Record.h
         Main/Record/source/MyDB_AttVal.cc
         Main/Record/source/MyDB_Record.cc
-        Main/RecordTest/source/RecordQUnit.cc
-        A2.pdf)
+        Main/RecordTest/source/RecordQUnit.cc)

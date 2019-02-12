@@ -9,12 +9,12 @@ using namespace std;
 // Instances of this class will be created via calls to MyDB_PageReaderWriter.getIterator ()
 // or MyDB_FileReaderWriter.getIterator ().
 //
-class MyDB_RecordIterator;
-typedef shared_ptr <MyDB_RecordIterator> MyDB_RecordIteratorPtr;
+class MyDB_RecIterator;
+typedef shared_ptr <MyDB_RecIterator> MyDB_RecordIteratorPtr;
 
 // DO NOT MODIFY!
 
-class MyDB_RecordIterator {
+class MyDB_RecIterator {
 
 public:
 
@@ -26,8 +26,8 @@ public:
 	virtual bool hasNext () = 0;
 
 	// destructor and contructor
-	MyDB_RecordIterator () {};
-	virtual ~MyDB_RecordIterator () {};
+	MyDB_RecIterator () {};
+	virtual ~MyDB_RecIterator () {};
 
 };
 
