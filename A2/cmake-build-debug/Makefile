@@ -123,33 +123,6 @@ A2/fast:
 	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/build
 .PHONY : A2/fast
 
-Main/BufferMgr/headers/it.o: Main/BufferMgr/headers/it.cc.o
-
-.PHONY : Main/BufferMgr/headers/it.o
-
-# target to build an object file
-Main/BufferMgr/headers/it.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/headers/it.cc.o
-.PHONY : Main/BufferMgr/headers/it.cc.o
-
-Main/BufferMgr/headers/it.i: Main/BufferMgr/headers/it.cc.i
-
-.PHONY : Main/BufferMgr/headers/it.i
-
-# target to preprocess a source file
-Main/BufferMgr/headers/it.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/headers/it.cc.i
-.PHONY : Main/BufferMgr/headers/it.cc.i
-
-Main/BufferMgr/headers/it.s: Main/BufferMgr/headers/it.cc.s
-
-.PHONY : Main/BufferMgr/headers/it.s
-
-# target to generate assembly for a file
-Main/BufferMgr/headers/it.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/headers/it.cc.s
-.PHONY : Main/BufferMgr/headers/it.cc.s
-
 Main/BufferMgr/source/MyDB_BufferManager.o: Main/BufferMgr/source/MyDB_BufferManager.cc.o
 
 .PHONY : Main/BufferMgr/source/MyDB_BufferManager.o
@@ -203,33 +176,6 @@ Main/BufferMgr/source/MyDB_Page.s: Main/BufferMgr/source/MyDB_Page.cc.s
 Main/BufferMgr/source/MyDB_Page.cc.s:
 	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.s
 .PHONY : Main/BufferMgr/source/MyDB_Page.cc.s
-
-Main/BufferTest/source/BufferQUnit.o: Main/BufferTest/source/BufferQUnit.cc.o
-
-.PHONY : Main/BufferTest/source/BufferQUnit.o
-
-# target to build an object file
-Main/BufferTest/source/BufferQUnit.cc.o:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.o
-
-Main/BufferTest/source/BufferQUnit.i: Main/BufferTest/source/BufferQUnit.cc.i
-
-.PHONY : Main/BufferTest/source/BufferQUnit.i
-
-# target to preprocess a source file
-Main/BufferTest/source/BufferQUnit.cc.i:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.i
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.i
-
-Main/BufferTest/source/BufferQUnit.s: Main/BufferTest/source/BufferQUnit.cc.s
-
-.PHONY : Main/BufferTest/source/BufferQUnit.s
-
-# target to generate assembly for a file
-Main/BufferTest/source/BufferQUnit.cc.s:
-	$(MAKE) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.s
-.PHONY : Main/BufferTest/source/BufferQUnit.cc.s
 
 Main/Catalog/source/MyDB_Catalog.o: Main/Catalog/source/MyDB_Catalog.cc.o
 
@@ -510,18 +456,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... A2"
-	@echo "... Main/BufferMgr/headers/it.o"
-	@echo "... Main/BufferMgr/headers/it.i"
-	@echo "... Main/BufferMgr/headers/it.s"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.o"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.i"
 	@echo "... Main/BufferMgr/source/MyDB_BufferManager.s"
 	@echo "... Main/BufferMgr/source/MyDB_Page.o"
 	@echo "... Main/BufferMgr/source/MyDB_Page.i"
 	@echo "... Main/BufferMgr/source/MyDB_Page.s"
-	@echo "... Main/BufferTest/source/BufferQUnit.o"
-	@echo "... Main/BufferTest/source/BufferQUnit.i"
-	@echo "... Main/BufferTest/source/BufferQUnit.s"
 	@echo "... Main/Catalog/source/MyDB_Catalog.o"
 	@echo "... Main/Catalog/source/MyDB_Catalog.i"
 	@echo "... Main/Catalog/source/MyDB_Catalog.s"

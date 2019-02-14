@@ -40,7 +40,7 @@ public:
 	void loadFromTextFile (string fromMe);
 
 	// dump the contents of this table into a text file
-	void writeIntoTextFile (string toMe);
+	void writeIntoTextFile (string fileName);
 
 	// access the i^th page in this file
 	MyDB_PageReaderWriter operator [] (size_t i);
@@ -51,8 +51,8 @@ public:
 private:
 
 	// ANYTHING YOU NEED HERE
-	MyDB_TablePtr forMe;
-	MyDB_BufferManagerPtr myBuffer;
+	MyDB_TablePtr table;
+	MyDB_BufferManagerPtr buffer;
 };
 
 #endif

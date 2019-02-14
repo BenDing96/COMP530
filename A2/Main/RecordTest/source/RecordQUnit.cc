@@ -299,20 +299,45 @@ int main(int argc, char *argv[]) {
 			MyDB_RecordIteratorPtr myIter2 = supplierTable.getIterator(temp);
 
 			cout << "count..." << flush;
+//			int i = 0, j = 0, z = 0;
 			while (myIter1->hasNext() || myIter2->hasNext()) {
+
 				if (myIter1->hasNext()) {
 					myIter1->getNext();
 					counter++;
+//					i++;
 				}
 				if (myIter1->hasNext()) {
 					myIter1->getNext();
 					counter++;
+//					z++;
 				}
+
 				if (myIter2->hasNext()) {
 					myIter2->getNext();
 					counter++;
+//					j++;
 				}
+
+//                if (i==5000) {
+//                    cout<<endl;
+//                    cout<<"i: "<<i<<endl;
+//                    cout<<"z: "<<z<<endl;
+//                    cout<<"j: "<<j<<endl;
+//                    cout<<counter<<endl;
+//                }
+//                if (j==5093) {
+//                    cout<<endl;
+//                    cout<<"i: "<<i<<endl;
+//                    cout<<"z: "<<z<<endl;
+//                    cout<<"j: "<<j<<endl;
+//                }
 			}
+
+
+
+
+
 
 			cout << "shutdown manager..." << flush;
 		}

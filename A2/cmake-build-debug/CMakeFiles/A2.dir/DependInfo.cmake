@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/headers/it.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/BufferMgr/headers/it.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source/MyDB_BufferManager.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferMgr/source/MyDB_Page.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o"
-  "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/BufferTest/source/BufferQUnit.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Catalog.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Schema.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o"
   "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/Main/Catalog/source/MyDB_Table.cc" "/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug/CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o"
@@ -25,7 +23,6 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../."
   "../Build"
-  "../Build/bin"
   "."
   "../Main"
   "../Main/BufferMgr"

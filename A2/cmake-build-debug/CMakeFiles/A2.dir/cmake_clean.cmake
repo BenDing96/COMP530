@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/A2.dir/Main/BufferMgr/headers/it.cc.o"
   "CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o"
   "CMakeFiles/A2.dir/Main/BufferMgr/source/MyDB_Page.cc.o"
-  "CMakeFiles/A2.dir/Main/BufferTest/source/BufferQUnit.cc.o"
   "CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Catalog.cc.o"
   "CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Schema.cc.o"
   "CMakeFiles/A2.dir/Main/Catalog/source/MyDB_Table.cc.o"

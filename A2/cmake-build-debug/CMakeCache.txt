@@ -20,6 +20,12 @@ A2_BINARY_DIR:STATIC=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/CO
 //Value Computed by CMake
 A2_SOURCE_DIR:STATIC=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2
 
+//Value Computed by CMake
+Ass2_BINARY_DIR:STATIC=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2/cmake-build-debug
+
+//Value Computed by CMake
+Ass2_SOURCE_DIR:STATIC=/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A2
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 

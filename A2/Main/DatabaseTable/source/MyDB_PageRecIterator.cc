@@ -8,9 +8,28 @@
 #include "MyDB_PageRecIterator.h"
 
 void MyDB_PageRecIterator :: getNext () {
-//    void *pos = bytesConsumed + (char *) myPage->getBytes ();
-//    void *nextPos = myRec->fromBinary (pos);
-//    bytesConsumed += ((char *) nextPos) - ((char *) pos);
+    if(this->hasNext()){
+        void *pos = this->recordIndex + this->pageRW->getPageHeaderSize() + (char *) this->page->getBytes ();
+        void *newPos = this->record->fromBinary (pos);
+        this->recordIndex += (char*)newPos - (char*)pos;
+    }
+}
+
+bool MyDB_PageRecIterator :: hasNext() {
+    if (this->pageRW->getPageHeader()->lastByte <= this->recordIndex) {
+        return false;
+    } else {
+        return true;
+    }
+}
+
+MyDB_PageRecIterator :: MyDB_PageRecIterator(MyDB_BufferManagerPtr myBuffer, MyDB_TablePtr myTable, long i, MyDB_RecordPtr myRecord) {
+    this->buffer = myBuffer;
+    this->page = myBuffer->getPage(myTable, i);
+    this->pageRW = make_shared<MyDB_PageReaderWriter> (myBuffer, myTable, i);
+    // 获取page的中第一个record的首地址
+    this->recordIndex = 0;
+    this->record = myRecord;
 }
 
 #endif
