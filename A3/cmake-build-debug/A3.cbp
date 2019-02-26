@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/dingzheyu/Desktop/A3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/dingzheyu/Desktop/A3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/dingzheyu/Desktop/A3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A3">
+				<Option output="/Users/dingzheyu/Desktop/A3/cmake-build-debug/A3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingzheyu/Desktop/A3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/BufferTest/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Record/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 A3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A3/fast">
+				<Option output="/Users/dingzheyu/Desktop/A3/cmake-build-debug/A3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/dingzheyu/Desktop/A3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/BufferTest/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Qunit/headers"/>
+					<Add directory="/Users/dingzheyu/Desktop/A3/Main/Record/headers"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 A3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/dingzheyu/Desktop/A3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Build/SConstruct">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Build/supplier.tbl">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Build/supplierBig.tbl">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Build/supplierBigSorted.tbl">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/CheckLRU.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/MyDB_BufferManager.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/MyDB_Page.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/MyDB_PageHandle.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/PageCompare.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers/TableCompare.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/source/MyDB_BufferManager.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/BufferMgr/source/MyDB_Page.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers/MyDB_AttType.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers/MyDB_Catalog.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers/MyDB_PageType.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers/MyDB_Schema.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/headers/MyDB_Table.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/source/MyDB_Catalog.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/source/MyDB_Schema.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Catalog/source/MyDB_Table.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_PageListIteratorAlt.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_PageRecIterator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_PageRecIteratorAlt.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_RecordIterator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_RecordIteratorAlt.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_TableRecIterator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/MyDB_TableRecIteratorAlt.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/RecordComparator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers/Sorting.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_PageRecIterator.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_TableRecIterator.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/source/Sorting.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Qunit/headers/QUnit.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Record/headers/MyDB_AttVal.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Record/headers/MyDB_INRecord.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Record/headers/MyDB_Record.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Record/source/MyDB_AttVal.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/Record/source/MyDB_Record.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/Main/SortTest/source/SortQUnit.cc">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/Users/dingzheyu/Desktop/A3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
