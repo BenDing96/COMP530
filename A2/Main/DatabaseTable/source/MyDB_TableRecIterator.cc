@@ -5,13 +5,12 @@
 #ifndef A2_MYDB_TABLERECITERATOR_C
 #define A2_MYDB_TABLERECITERATOR_C
 
-#include <Main/DatabaseTable/headers/MyDB_TableRecIterator.h>
 
 #include "MyDB_TableRecIterator.h"
 
 
 bool MyDB_TableRecIterator::hasNext() {
-    while(this->pageRecIterator->hasNext() == false) {
+    while(!this->pageRecIterator->hasNext()) {
         this->pageIndex++;
         if (this->pageIndex > this->table->lastPage()) {
             pageIndex--;
@@ -33,9 +32,9 @@ MyDB_TableRecIterator :: MyDB_TableRecIterator(MyDB_TableReaderWriter* myTableRW
     this->tableRW = myTableRW;
     this->table = myTable;
     this->record = myRecord;
-    // 类型是make_shared<MyDB_PageReadWriter> (*this, this->forMe, iterateIntoMe);
-    this->pageRecIterator = myTableRW->operator[](0).getIterator(myRecord);
     this->pageIndex = 0;
+    this->pageRecIterator = myTableRW->operator[](pageIndex).getIterator(myRecord);
+
 }
 
 

@@ -10,7 +10,6 @@ using namespace std;
 MyDB_TableReaderWriter :: MyDB_TableReaderWriter (MyDB_TablePtr myTable, MyDB_BufferManagerPtr myBuffer) {
 	this->table = myTable;
 	this->buffer = myBuffer;
-	// lastPage置0
 	if (myTable->lastPage() == -1) {
 		myTable->setLastPage(0);
 		MyDB_PageReaderWriterPtr pageRW = make_shared <MyDB_PageReaderWriter> (myBuffer, myTable, myTable->lastPage());
@@ -21,7 +20,6 @@ MyDB_TableReaderWriter :: MyDB_TableReaderWriter (MyDB_TablePtr myTable, MyDB_Bu
 MyDB_PageReaderWriter MyDB_TableReaderWriter :: operator [] (size_t i) {
 	MyDB_PageReaderWriterPtr temp;
 	while (i > this->table->lastPage()) {
-		// 如果没有第i个page就创建新的空page
 		this->table->setLastPage(this->table->lastPage() + 1);
 		temp = make_shared<MyDB_PageReaderWriter> (this->buffer, this->table, this->table->lastPage());
 		temp->clear();

@@ -6,6 +6,7 @@
 
 
 #include "MyDB_PageRecIterator.h"
+#include "MyDB_PageReaderWriter.h"
 
 void MyDB_PageRecIterator :: getNext () {
     if(this->hasNext()){
@@ -16,10 +17,12 @@ void MyDB_PageRecIterator :: getNext () {
 }
 
 bool MyDB_PageRecIterator :: hasNext() {
-    if (this->pageRW->getPageHeader()->lastByte <= this->recordIndex) {
-        return false;
-    } else {
-        return true;
+    if (this->page->getBytes() != NULL) {
+        if (this->pageRW->getPageHeader()->lastByte <= this->recordIndex) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
 
@@ -27,7 +30,6 @@ MyDB_PageRecIterator :: MyDB_PageRecIterator(MyDB_BufferManagerPtr myBuffer, MyD
     this->buffer = myBuffer;
     this->page = myBuffer->getPage(myTable, i);
     this->pageRW = make_shared<MyDB_PageReaderWriter> (myBuffer, myTable, i);
-    // 获取page的中第一个record的首地址
     this->recordIndex = 0;
     this->record = myRecord;
 }

@@ -13,9 +13,6 @@
 
 using namespace std;
 
-//class MyDB_TableRecIterator;
-//typedef shared_ptr <MyDB_TableRecIterator> MyDB_TableRecIteratorPtr;
-
 class MyDB_TableRecIterator: public MyDB_RecIterator {
 
 public:

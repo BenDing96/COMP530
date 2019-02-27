@@ -5,7 +5,7 @@
 #ifndef A2_MYDB_PAGERECITERATOR_H
 #define A2_MYDB_PAGERECITERATOR_H
 
-#include <Main/BufferMgr/headers/MyDB_BufferManager.h>
+#include "MyDB_BufferManager.h"
 #include "MyDB_RecordIterator.h"
 #include "MyDB_Record.h"
 #include "MyDB_PageHandle.h"
