@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/dingzheyu/Desktop/A3/Main/BufferMgr/headers -I/Users/dingzheyu/Desktop/A3/Main/BufferTest/headers -I/Users/dingzheyu/Desktop/A3/Main/Catalog/headers -I/Users/dingzheyu/Desktop/A3/Main/DatabaseTable/headers -I/Users/dingzheyu/Desktop/A3/Main/Qunit/headers -I/Users/dingzheyu/Desktop/A3/Main/Record/headers 
+CXX_INCLUDES = -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/BufferMgr/headers -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/Catalog/headers -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/DatabaseTable/headers -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/Qunit -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/Qunit/headers -I/Users/dingzheyu/Desktop/DatabaseImplementation/Homework/COMP530/A3/Main/Record/headers 
 

@@ -22,7 +22,7 @@
 |supplierSorted.lastPage|382|
 |supplierSorted.name.type|string|
 |supplierSorted.nationkey.type|int|
-|supplierSorted.numTuples|103972864|
+|supplierSorted.numTuples|170483712|
 |supplierSorted.phone.type|string|
 |supplierSorted.rootLocation|-1|
 |supplierSorted.sortAtt|none|

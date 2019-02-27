@@ -11,7 +11,158 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2179705c-3b60-4817-91cd-8c561a9b0e22" name="Default Changelist" comment="" />
+    <list default="true" id="2179705c-3b60-4817-91cd-8c561a9b0e22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../A2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/headers/MyDB_PageRecIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/headers/MyDB_PageRecIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/headers/MyDB_TableRecIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/headers/MyDB_TableRecIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_PageRecIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/DatabaseTable/source/MyDB_TableRecIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/Main/Record/headers/MyDB_AttVal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/Main/Record/headers/MyDB_AttVal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/A2" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/A2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/Main/RecordTest/source/RecordQUnit.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A2/cmake-build-debug/catFile" beforeDir="false" afterPath="$PROJECT_DIR$/../A2/cmake-build-debug/catFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/A3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/A3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/.sconsign.dblite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/SConstruct" beforeDir="false" afterPath="$PROJECT_DIR$/Build/SConstruct" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/bin/sortUnitTest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/catFile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/supplier.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/supplier.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/Build/supplier.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/supplierBig.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/Build/supplierBig.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/supplierBigSorted.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/Build/supplierBigSorted.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Build/supplierSorted.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/CheckLRU.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/CheckLRU.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_BufferManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_BufferManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_Page.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_Page.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_PageHandle.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/MyDB_PageHandle.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/PageCompare.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/PageCompare.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/headers/TableCompare.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/headers/TableCompare.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_BufferManager.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_BufferManager.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_BufferManager.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_Page.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_Page.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferMgr/source/MyDB_Page.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/BufferTest/source/BufferQUnit.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/BufferTest/source/BufferQUnit.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_AttType.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_AttType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Catalog.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Catalog.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_PageType.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_PageType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Schema.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Schema.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Table.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/headers/MyDB_Table.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Catalog.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Catalog.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Catalog.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Schema.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Schema.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Schema.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Table.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Table.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Catalog/source/MyDB_Table.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageListIteratorAlt.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageListIteratorAlt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageReaderWriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageRecIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageRecIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageRecIteratorAlt.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageRecIteratorAlt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_RecordIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_RecordIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_RecordIteratorAlt.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_RecordIteratorAlt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableReaderWriter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableRecIterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableRecIterator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableRecIteratorAlt.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_TableRecIteratorAlt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/RecordComparator.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/RecordComparator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/headers/Sorting.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/headers/Sorting.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageReaderWriter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIterator.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableReaderWriter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIterator.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIterator.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIterator.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Qunit/headers/QUnit.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Qunit/headers/QUnit.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/headers/MyDB_AttVal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Record/headers/MyDB_AttVal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/headers/MyDB_INRecord.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Record/headers/MyDB_INRecord.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/headers/MyDB_Record.h" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Record/headers/MyDB_Record.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/source/MyDB_AttVal.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Record/source/MyDB_AttVal.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/source/MyDB_AttVal.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/source/MyDB_Record.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Record/source/MyDB_Record.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/Record/source/MyDB_Record.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/RecordTest/source/RecordQUnit.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/RecordTest/source/RecordQUnit.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/RecordTest/source/RecordQUnit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/SortTest/source/SortQUnit.cc" beforeDir="false" afterPath="$PROJECT_DIR$/Main/SortTest/source/SortQUnit.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main/SortTest/source/SortQUnit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A3.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A3.dSYM/Contents/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A3.dSYM/Contents/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A3.dSYM/Contents/Resources/DWARF/A3" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A3.dSYM/Contents/Resources/DWARF/A3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/BufferMgr/source/MyDB_BufferManager.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/BufferMgr/source/MyDB_Page.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/BufferMgr/source/MyDB_Page.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Catalog.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Catalog.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Schema.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Schema.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Table.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Catalog/source/MyDB_Table.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageListIteratorAlt.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageReaderWriter.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageRecIterator.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_PageRecIteratorAlt.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableReaderWriter.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableRecIterator.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/MyDB_TableRecIteratorAlt.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/Sorting.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/DatabaseTable/source/Sorting.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Record/source/MyDB_AttVal.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Record/source/MyDB_AttVal.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Record/source/MyDB_Record.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/Record/source/MyDB_Record.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/SortTest/source/SortQUnit.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/Main/SortTest/source/SortQUnit.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A3.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/catFile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/catFile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/supplier.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/supplier.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/supplier.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/supplier.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/supplierBig.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/supplierBig.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/supplierBigSorted.tbl" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/supplierBigSorted.tbl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/supplierSorted.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/supplierSorted.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +174,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="368">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/Record/source/MyDB_Record.cc">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12405">
-              <caret line="827" column="40" selection-start-line="827" selection-start-column="19" selection-end-line="827" selection-end-column="40" />
+            <state relative-caret-position="15">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -109,11 +251,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/SortTest/source/SortQUnit.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
+            <state relative-caret-position="1488">
               <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
               <folding>
                 <element signature="e#42#69#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/Record/headers/MyDB_AttVal.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -123,7 +274,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>buildRecordComparator</find>
+      <find>unit</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -135,6 +290,8 @@
         <option value="$PROJECT_DIR$/Main/DatabaseTable/headers/MyDB_PageRecIteratorAlt.h" />
         <option value="$PROJECT_DIR$/Main/Record/headers/MyDB_Record.h" />
         <option value="$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.cc" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Main/Record/headers/MyDB_AttVal.h" />
       </list>
     </option>
   </component>
@@ -142,17 +299,24 @@
     <option name="width" value="1280" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="A3" type="b2602c69:ProjectViewProjectNode" />
               <item name="A3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="A3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="A3" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="A3" type="b2602c69:ProjectViewProjectNode" />
@@ -248,7 +412,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,23 +459,24 @@
       <workItem from="1550902681537" duration="12262000" />
       <workItem from="1551120593079" duration="3425000" />
       <workItem from="1551149674008" duration="1144000" />
-      <workItem from="1551157257307" duration="65000" />
+      <workItem from="1551243557036" duration="108000" />
+      <workItem from="1551243757694" duration="197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16896000" />
+    <option name="totallyTimeSpent" value="17136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25335777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25641027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -334,9 +498,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Build/SConstruct">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/supplierBigSorted.tbl">
@@ -420,8 +581,11 @@
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/queue" />
     <entry file="file://$PROJECT_DIR$/Main/DatabaseTable/source/Sorting.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
+        <state relative-caret-position="37">
           <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding>
+            <element signature="e#32#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,9 +641,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/SortTest/source/SortQUnit.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
+        <state relative-caret-position="1488">
           <caret line="101" column="50" selection-start-line="101" selection-start-column="50" selection-end-line="101" selection-end-column="50" />
           <folding>
             <element signature="e#42#69#0" expanded="true" />
@@ -487,10 +672,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Main/Record/headers/MyDB_AttVal.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

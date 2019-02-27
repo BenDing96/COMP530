@@ -4,12 +4,11 @@ project(A3)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(Main/BufferMgr/headers)
-include_directories(Main/BufferTest/headers)
 include_directories(Main/Catalog/headers)
 include_directories(Main/DatabaseTable/headers)
+include_directories(Main/Qunit)
 include_directories(Main/Qunit/headers)
 include_directories(Main/Record/headers)
-
 
 add_executable(A3
         Build/SConstruct
